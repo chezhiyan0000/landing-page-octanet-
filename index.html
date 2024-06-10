@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Web page CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Simple lightbox CSS -->
+    <link rel="stylesheet" href="assets/css/simple-lightbox.min.css" />
+     <title>transformers</title>
+    <link rel="icon" href="assets/icons/logo1.png" type="image/x-icon"/>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+        <a href="#" class="logo">
+          <h1>
+            <span class="transformers">transformers</span><span class="fanpage"> Fanpage</span>
+            <span class="fist">🤖</span>
+          </h1>
+        </a>
+        <!-- dark and light mode   switcher -->
+        <div class="theme-switch">
+          <input type="checkbox" class="checkbox" id="checkbox" />
+          <label for="checkbox" class="label">
+             <ion-icon name="partly-sunny-outline" class="sun"></ion-icon>
+             <ion-icon name="moon-outline" class="moon"></ion-icon>
+             <div class="switcher"></div>
+          </label>
+          <script>const checkbox = document.querySelector("#checkbox");
+    
+            checkbox.addEventListener("change", () => {
+              // Toggle website theme
+              document.body.classList.toggle("dark");
+            });</script>
+      </div>
+        <ul>
+            <li class="nav-item">
+                <a href="#about" class="nav-link" id="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#videos" class="nav-link" id="nav-link">videos</a>
+            </li>
+            <li class="nav-item">
+                <a href="#walpaperss" class="nav-link" id="nav-link">walpapers</a>
+            </li>
+            
+
+        </ul>
+  </nav>
+
+   <!-- Hero section -->
+    <section class="hero">
+      <div>
+        <h1>
+          <span class="hear">Freedom is the right of all sentient beings. </span><br>
+
+        </h1>
+        <p>
+          A fan page of transformers <br />
+          We also dedicate some special time to throwbacks.
+        </p>
+        <a class="btn red" href="#">Learn More</a>
+        <a class="btn blue" href="#">Subscribe</a>
+      </div>
+      <div class="i-frame">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0iThW2lyGUk?si=4ZfbU-TULaGAZPUW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="stand-1"></div>
+        <div class="stand-2"></div>
+      </div>
+      
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+      <h3>Watch the Action</h3>
+      <p>
+        Our primary objective is to bring the transformers contents like walpapers and videos  
+        the world
+      </p>
+
+      <h3>Its not About the Fights Alone!</h3>
+      <p>
+         Earth, birthplace of the human race, a species much  like our own,capable of great compation, <br>and great violence. 
+      </p>
+</section>
+
+    <!-- Lightbox image gallery -->
+    <section class="stars" id="stars">
+      <div class="stars-gallery">
+        <a href="assets/images/01.jpg" class="big">
+          <img
+            src="assets/images/01.jpg"
+            alt="01"
+            title="transformer 01"
+          />
+        </a>
+
+        <a href="assets/images/02.jpg" class="big">
+          <img
+            src="assets/images/02.jpg"
+            alt="02"
+            title="transformer 02"
+          />
+        </a>
+
+        <a href="assets/images/03.jpg" class="big">
+          <img
+            src="assets/images/03.jpg"
+            alt="03"
+            title="transformer 03"
+          />
+        </a>
+
+        <a href="assets/images/04.jpg" class="big">
+          <img
+            src="assets/images/04.jpg"
+            alt="04"
+            title="transformer 04"
+          />
+        </a>
+
+        <a href="assets/images/05.jpg" class="big"
+          ><img
+            src="assets/images/05.jpg"
+            alt="05"
+            title="transformer 05"
+          />
+        </a>
+
+        <a href="assets/images/06.jpg" class="big">
+          <img
+            src="assets/images/06.jpg"
+            alt="06"
+            title="transformer 06"
+          />
+        </a>
+      </div>
+</section>
+<!-- Email subscription -->
+    <section class="sub" id="sub">
+      <h3>Subscribe to our newsletter for updates</h3>
+      <form action="#">
+        <input
+          type="email"
+          name="email"
+          id="email-sub"
+          class="email-sub"
+          required
+        />
+        <input
+          type="submit"
+          value="Subscribe"
+          id="submit-btn"
+          class="submit-btn"
+        />
+      </form>
+</section>
+
+    <!-- Social icons -->
+    <section class="social">
+      <h3>Connect with us on Social Media</h3>
+      <div class="socicons">
+        <a href="#"> <ion-icon name="logo-twitter"></ion-icon> </a>
+        <a href="#"> <ion-icon name="logo-instagram"></ion-icon> </a>
+        <a href="#"> <ion-icon name="logo-facebook"></ion-icon> </a>
+      </div>
+</section>
+<footer>&copy;2024. All Rights Reserved</footer>
+</body>
+</html>
